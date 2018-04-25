@@ -23,15 +23,15 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   var newKittens = kittens.unshift(name)
-  return newKittens
+   newKittens
 }
 
 function removeLastKitten() {
   var newKittens = kittens.pop()
-  return newKittens
+   newKittens
 }
 
 function removeFirstKitten() {
   var newKittens = kittens.shift()
-  return newKittens
+   newKittens
 }
